@@ -18,7 +18,7 @@ var searchInsert = function(nums, target){
     } 
     else{
         for (let i=0; i<=halfLen;i++){
-            if (target<=nums[i]){
+            if (target<=nums[i]){02
                 return i
             }
             if(target < nums[0]){

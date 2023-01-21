@@ -1,0 +1,37 @@
+/* selector by tag*/
+p{
+    color:red;
+}
+
+/* selector by class */
+.student{
+    color: blue;
+    width: 56px;
+}
+
+/* selector by id */
+#first-name{
+    color: orange;
+}
+
+/* selectror - effective on hover */
+a:hover{
+    color: purple;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p,
+  li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+  }
