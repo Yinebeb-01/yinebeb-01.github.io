@@ -1,0 +1,68 @@
+/* selector by tag*/
+p{
+    color:red;
+}
+
+/* selector by class */
+.student{
+    color: blue;
+    width: 56px;
+}
+
+/* selector by id */
+#first-name{
+    color: orange;
+}
+
+/* selectror - effective on hover */
+a:hover{
+    color: purple;
+}
+
+h1,h2 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #9f5f00;
+    text-shadow: 3px 3px 1px rgb(48, 19, 19); 
+    /* horizontal offset, vertiacl offset and blured radius  */
+  }
+  
+  p,
+  li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  html {
+    font-size: 10px;
+    font-family: "Open Sans";
+  }
+
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(85,100,180);
+    padding: 0 20px 20px 20px;  /* top, right,bottom, left*/
+    /* border: 5px solid black; */
+  }
+  iimg{
+    display: block;
+    margin: 0;
+  }
+
+  #alert{
+    position:absolute;
+    top:0;
+    left:auto;
+    right:0;
+    bottom:0;
+    margin:0;
+    width:600px;
+    height:250px;
+    border:1px solid #a1a1a1;
+    margin:auto;
+    overflow-y:auto;
+  }
